@@ -6,8 +6,8 @@ import Pagenotfound from "./PageNotFound/pagenotfound";
 import Explore from "../Components/Explore/Explore";
 import ContactUS from "../Components/HelpSection/Help";
 import Signin from "../Components/Authentication/Signin/Signin";
-import SignUp from "../Components/Authentication/Signup/signup";
 import { LandingVedio } from "../Components/VideoChat/Landing";
+import Signup from "../Components/Authentication/Signup/signup";
 function Approuting() {
   return (
     <Routes>
@@ -19,7 +19,7 @@ function Approuting() {
       <Route path="/report" />
       <Route path="/about" />
       <Route path="/signin" element={<Signin />} />
-      <Route path="/signup" element={<SignUp />} />
+      <Route path="/signup" element={<Signup />} />
       <Route path="/explore" element={<Explore />} />
       <Route path="*" element={<Pagenotfound />} />
     </Routes>
