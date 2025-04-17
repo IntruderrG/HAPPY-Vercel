@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FcGoogle } from "react-icons/fc";
 
-const Signup = () => {
+const SignUp = () => {
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -164,4 +164,4 @@ const Signup = () => {
   );
 };
 
-export default Signup;
+export default SignUp;
